@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+
+    <div id="calculator">
+
+        <!-- Display Section of the Calculator -->
+        <section id="calculator_display">
+            <p id="display">
+            </p>
+
+        </section>
+
+        <!-- Body Section of the Calculator -->
+        <section id="calculator_body">
+
+            <!-- Implementing first row div -->
+            <div class="row_div">
+                <div class="button white-bg" data-value="C">C</div>
+                <div class="button white-bg" data-value="+-">+-</div>
+                <div class="button white-bg" data-value="%">%</div>
+                <div class="button white-bg" data-value="/">/</div>
+            </div>
+
+            <!-- Implementing 2nd row div -->
+            <div class="row_div">
+                <div class="button" data-value="9">9</div>
+                <div class="button" data-value="8">8</div>
+                <div class="button" data-value="7">7</div>
+                <div class="button white-bg" data-value="*">*</div>
+            </div>
+
+            <!-- Implementing 3rd row div -->
+            <div class="row_div">
+                <div class="button" data-value="6">6</div>
+                <div class="button" data-value="5">5</div>
+                <div class="button" data-value="4">4</div>
+                <div class="button white-bg" data-value="-">-</div>
+            </div>
+
+            <!-- Implementing 4th row div -->
+            <div class="row_div">
+                <div class="button" data-value="3">3</div>
+                <div class="button" data-value="2">2</div>
+                <div class="button" data-value="1">1</div>
+                <div class="button white-bg" data-value="+">+</div>
+            </div>
+
+            <!-- Implementing 5th row div -->
+            <div class="row_div">
+                <div class="button" style="flex-grow: 0;" data-value="0">0</div>
+                <div class="button" style="flex-grow: 0;" data-value=".">.</div>
+                <div class="button white-bg" style="flex-grow: 0.5;" data-value="=">=</div>
+            </div>
+            
+
+        </section>
+
+        
+    </div>
+
+    <!-- General Information about our calculator and attribution given to other sources -->
+    <div id ="auth-details">
+        Contributed by 
+        <b style="color: rgb(1, 49, 127);
+        text-decoration: underline;">Ankit Kumar Tiwari
+        </b>
+        <p style="color: black; font-weight: 700;">
+            Press "c" to Cancel or Delete. <br>
+            Press "z" to make the values positive or negative <br>
+            Press "Enter" or "=" to get Results.
+        </p>
+        Image by <a href="https://www.freepik.com/free-photo/calculator-colorful-paper-clips_7348468.htm#query=calculator%20background&position=20&from_view=keyword&track=ais&uuid=24102e37-9d4d-46d3-bb63-90fd55f5110d" target="_blank">Freepik</a>
+    </div>
+
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
